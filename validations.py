@@ -1,7 +1,15 @@
 #!/usr/bin/env python3
 
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 def validate_user(username, minlen):
+=======
+def vailidate_user(username, minlen):
+>>>>>>> f21cd6e... fixed typo.
+=======
+def validate_user(username, minlen):
+>>>>>>> e4fdb46... fixed TypeError.
     """Checks if the received username matches the required conditions."""
     if type(username) != str:
         raise TypeError("username must be a string")
